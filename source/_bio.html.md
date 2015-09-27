@@ -1,3 +1,1 @@
-# Phillip Andrew Longman
-
-Is a writer and developer living in Boston. He's into object-oriented programming, design and user experience
+Is a [writer](#) and [developer](#) living in Boston. He's interested in object-oriented programming, design and UX, data-driven journalism, the future of digital publishing, and tacos. He graduated from magazine school at [Drake](https://sjmc.drake.edu/) in 2006 and developer school at [Launch Academy](http://www.launchacademy.com) in Fall 2015. He made this website with his own [two hands](https://github.com/casualsubversive/philliplongman.com). In his spare time he's working on a novel and a new blogging project. You should probably [hire him](mailto:himself@philliplongman.com) to make things for you.
