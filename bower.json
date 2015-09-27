@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-website",
+  "version": "0.0.1",
+  "authors": [
+    "casualsubversive <himself@philliplongman.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
