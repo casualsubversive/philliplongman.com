@@ -8,6 +8,14 @@ activate :blog do |blog|
   # set options on blog
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+
+activate :directory_indexes
+
 set :haml, format: :html5
 
 ###
