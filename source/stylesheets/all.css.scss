@@ -1,29 +1,13 @@
 @import "normalize.scss";
 @import "settings.scss";
 @import "foundation.scss";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-// FONT CHOICES ----------------------------------------------------------------------
-@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One|Martel:400,200,300,600,700,800,900|Martel+Sans:400,200,300,600,700,800,900|Fredericka+the+Great|Londrina+Outline|Londrina+Solid);
+@import url(https://fonts.googleapis.com/css?family=Martel:400,200,300,600,700,800,900|Martel+Sans:400,200,300,600,700,800,900);
 
-// SERIF BOLD
-// font-family: 'Alfa Slab One', cursive
-
-// ELEGANT SERIF
-// font-family: 'Martel', serif
-
-// SANS SERIF
-// font-family: 'Martel Sans', sans-serif
-
-// FUN
-// font-family: 'Fredericka the Great', cursive
-// font-family: 'Londrina Outline', cursive
-// font-family: 'Londrina Solid', cursive
-// -----------------------------------------------------------------------------------
-
-$text-color: #ffffff;
-$link-color: #069ccd;
-$shadow-color: #aaa9a9;
-$background-color: #0053aa;
+$text-color: $white;
+$shadow-color: $base;
 
 @mixin header-style {
   font-family: 'Martel', serif;
@@ -46,7 +30,7 @@ body {
   background-size: cover;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   @include header-style;
 }
 
@@ -55,15 +39,15 @@ p {
 }
 
 a {
-  color: transparentize($primary-color, .15);
   font-weight: 500;
 }
 
 .bio{
   @media #{$small-up} { margin-top: 4vw; }
-  @media #{$large-up} { margin-top: 7em; }
+  @media #{$large-up} { margin-top: 6em; }
+  @media #{$small-up} { margin-bottom: 3vw; }
+  @media #{$large-up} { margin-bottom: 2em; }
   text-align: justify;
-  // text-shadow: 1px 1px 2px $shadow-color;
 
   h1 {
     @media #{$small-up} { font-size: 9vw; }
@@ -77,6 +61,7 @@ a {
 }
 
 .img-circle {
+  @media #{$small-only} { border: 6px $text-color solid; }
+  @media #{$medium-up} { border: 8px $text-color solid; }
   border-radius: 50%;
-  border: 10px white solid;
 }

@@ -10,8 +10,6 @@ end
 
 set :haml, format: :html5
 
-
-
 ###
 # Compass
 ###
