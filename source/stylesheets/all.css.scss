@@ -28,6 +28,10 @@ body {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,16 +47,12 @@ a {
 }
 
 .bio{
-  @media #{$small-up} { margin-top: 4vw; }
-  @media #{$large-up} { margin-top: 6em; }
-  @media #{$small-up} { margin-bottom: 3vw; }
-  @media #{$large-up} { margin-bottom: 2em; }
   text-align: justify;
 
   h1 {
-    @media #{$small-up} { font-size: 9vw; }
-    @media #{$medium-only} { font-size: 7vw; }
-    @media #{$large-up} { font-size: 3em; }
+    font-size: 4.7em;
+    font-weight: 700;
+    margin: 0
   }
 
   p {
@@ -64,4 +64,5 @@ a {
   @media #{$small-only} { border: 6px $text-color solid; }
   @media #{$medium-up} { border: 8px $text-color solid; }
   border-radius: 50%;
+  margin-top: 12px;
 }

@@ -1,13 +1,7 @@
-.row.bio
-  .small-12.columns.text-center
-    %h1.hidden-for-large-up Phillip Andrew Longman
-  .small-6.medium-4.small-centered.medium-uncentered.columns
-    = link_to "/" do
+.bio.row
+  .small-4.columns
+    = link_to "http://www.linkedin.com/in/philliplongman", target: "_blank" do
       = image_tag "/images/headshot.jpg", class: "img-circle"
-  .small-12.medium-8.columns
-    %h1.show-for-large-up Phillip Andrew Longman
+  .small-8.columns
+    %h1 Phillip Longman
     = partial "bio"
-
-.row.social-media
-  .small-7.medium-4.large-3.columns.small-centered
-    = partial "social_media"

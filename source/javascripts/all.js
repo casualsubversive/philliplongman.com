@@ -3,3 +3,4 @@
 //= require_tree .
 
 $(document).foundation();
+$("a").attr("target", "_blank")
